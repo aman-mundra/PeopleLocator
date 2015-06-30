@@ -1,3 +1,6 @@
+//Rough outline of code for the People Locator Project
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 //constructor for the Employee
 function Employee (name, roomID, email)
@@ -7,6 +10,9 @@ function Employee (name, roomID, email)
 	this.email = email; 
 }
 
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 /*Employee information below will eventually be replaced with some data from a database (or excel file) */
 
 var employee1 = new Employee("Aman Mundra", "D3-1", "aman.s.mundra@gmail.com"); //parameters inside parenthesis 
@@ -15,10 +21,15 @@ var employee3 = new Employee("Jane Doe", "D4-2", "jane.doe@gmail.com");
 var employee4 = new Employee("Shuchu Han", "D4-2", "shuchu.han@gmail.com");
 var employee5 = new Employee("Rudy Thomas", "D4-3", "rudy.thomas@gmail.com");
 var employee6 = new Employee("Jesse Daniels", "D4-3", "jesse.daniels@gmail.com");
-var employee7 = new Employee("Daniel Scofield", "D4-4", "daniel.scofield@gmail.com");
+var employee7 = new Employee("Alvin Mathew", "D4-4", "alvin.mathew@gmail.com");
 var employee8 = new Employee("Kelly Ann", "D4-4", "kelly.ann@gmail.com");
 var employee9 = new Employee("Ben Chipkin", "D4-4", "ben.chipkin@gmail.com");
 var employee10 = new Employee("Kyle Peabody", "D4-4", "kyle.peabody@gmail.com");
+
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 //Console test to see cycling through the employees
 //Status: Running with correct information
@@ -32,12 +43,8 @@ var employee10 = new Employee("Kyle Peabody", "D4-4", "kyle.peabody@gmail.com");
 //Declaration of global variable USERINPUT
 var userinput = "";
 
-function printNumber(number) {
-  var placeholder = document.getElementById("placeholder");
-  placeholder.innerHTML = number;
-}
-
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//the for-in statements below need to be changed into loops to make the code more efficient
 
 var button1 = document.getElementById("button1");
 
